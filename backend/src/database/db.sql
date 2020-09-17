@@ -1,0 +1,8 @@
+CREATE DATABASE TEST_TCIT;
+
+CREATE TABLE IF NOT EXISTS POSTS(
+    id SERIAL,
+    name TEXT,
+    description TEXT,
+    PRIMARY KEY (id)
+);
